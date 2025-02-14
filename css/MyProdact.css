@@ -1,0 +1,80 @@
+.view {
+    width: 1333px;
+    height: 420px;
+    border: 1px solid #eee;
+    border-radius: 15px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin: 25px auto;
+  }
+  .view-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 0 25px;
+  }
+  .view-item {
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-left: 1px solid #eeee;
+  }
+  .view-item:last-child {
+    border-left: none;
+  }
+  
+  .view-text {
+    text-align: right;
+    align-self: flex-start;
+    padding-right: 15px;
+  }
+  .view-text h3,
+  .view-text p {
+    direction: rtl;
+    font-size: 15px;
+    
+  }
+  .view-text p {
+    color: #81858b;
+  }
+  .view-text h3 {
+    color: #23254e;
+  }
+  .aval,
+  .akhar {
+    display: flex;
+  }
+  .aval {
+    border-bottom: 1px solid #eee;
+  }
+  .aval img,
+  .akhar img {
+    padding: 13px 10px;
+    border-right: 1px solid #eee;
+  }
+  .aval img:first-child,
+  .akhar img:first-child {
+    border-right: 0;
+  }
+  .more {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 15px 0;
+  }
+  .more a {
+    color: #19bfd3;
+    display: flex;
+    align-items: center;
+    justify-content: center; /* وسط چین کردن متن */
+    width: 100%;
+    text-decoration: none;
+  }
+  .more svg {
+    fill: #19bfd3;
+    margin-right: 5px;
+  }
+  

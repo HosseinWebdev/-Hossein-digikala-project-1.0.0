@@ -1,0 +1,12 @@
+.b__1{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.b__1 img{
+    width: 1336px;
+    height: 167px;
+    border-radius: 16px;
+}

@@ -1,0 +1,28 @@
+.banner__container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap; /* برای شکستن به خطوط بعدی در صورت کمبود فضا */
+  gap: 10px; /* فاصله بین بنرها */
+  
+}
+
+.banner__2 {
+  width: calc(50% - 100px); /* بنرها 50% عرض بگیرند و کمی فاصله داشته باشند */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.banner__2 a {
+  width: 640px; /* عرض لینک برابر با عرض کانتینر باشه */
+  height: auto;
+  border-radius: 15px;
+  overflow: hidden; /* حذف اضافات در لبه‌های گرد */
+}
+
+.banner__2 a img {
+  width: 100%;
+  height: auto;
+  display: block; /* اطمینان از اینکه تصویر به‌درستی داخل لینک قرار بگیره */
+}
